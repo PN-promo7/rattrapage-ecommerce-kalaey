@@ -1,0 +1,151 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  .law p {
+    color: white;
+  }
+
+  .btn {
+    padding: 7px 10px;
+  }
+
+  .law p {
+    font-size: 0.8rem;
+    margin-top: 41px;
+  }
+
+  /* ||||||||||||||||||||MENU NAVIGATION|||||||||||||||||||| */
+  .mainNav, img {
+    width: 100%;
+  }
+
+
+
+  #menu-element, #menu-icons {
+    display: none;
+  }
+
+  #menu-responsive {
+    display: block;
+    font-size: 3rem;
+  }
+
+  /* ||||||||||||||||||||HEADER|||||||||||||||||||| */
+  header {
+    padding: 100px 80px;
+    width: 100%;
+  }
+
+
+  /* ||||||||||||||||||||CATEGORIE|||||||||||||||||||| */
+  .img_CatEnfant .img_cat {
+    padding: 100px 180px;
+  }
+
+  .img_CatAdlt .img_cat{
+    padding: 100px 180px;
+
+  }
+
+  .main-cat {
+display: block;
+  }
+
+  /* ||||||||||||||||||||ARTICLE|||||||||||||||||||| */
+  .all_product {
+    flex-direction: column;
+  }
+
+  .all_product article {
+    box-shadow: none;
+  }
+
+  .col {
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .col:nth-child(even) {
+    margin: 0px;
+  }
+
+  .art_produit h3, p {
+    font-size: 2.5rem;
+  }
+
+  .single-product-content span {
+    color: red;
+  }
+
+  /* ||||||||||||||||||||PROMO|||||||||||||||||||| */
+  .bPromo h4 {
+    color: white;
+    margin bottom: 30px;
+  }
+
+  .bPromo {
+    padding: 115px 80px;
+  }
+
+  /* ||||||||||||||||||||ICONE AVENTAGE|||||||||||||||||||| */
+  .cont-avtg {
+    font-size: 0.5rem;
+  }
+
+  /* ||||||||||||||||||||FOOTER|||||||||||||||||||| */
+  .footerGlobal ul {
+    font-size: 2rem;
+  }
+
+  .mainfoot h5 {
+    font-size: 2rem;
+  }
+
+  .newsletter form {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  footer li, footer h5, {
+    font-size: 0.7rem;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #bottom .mainfoot {
+    width: 50%;
+  }
+
+  #socialFoot {
+    flex-direction: column;
+  }
+
+  #inscription {
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  #champ{
+    font-size: 2rem;
+  }
+}
